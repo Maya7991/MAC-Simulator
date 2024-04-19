@@ -1,0 +1,18 @@
+# Incorrect Version 
+#  sum = A OR B XOR Cin
+#  Cout = ((A OR B) AND Cin) OR (A AND B)
+
+INPUT(A)
+INPUT(B)
+INPUT(Cin)
+OUTPUT(Sum)
+OUTPUT(Cout)
+
+
+AxorB = OR(A, B)
+Sum = XOR(AxorB, Cin)
+AandB = AND(A, B)
+AxorBandCin = AND(AxorB, Cin)
+
+Cout = OR(AandB, AxorBandCin)
+

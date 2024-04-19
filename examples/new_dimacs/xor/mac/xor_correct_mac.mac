@@ -1,0 +1,21 @@
+h 6 16
+0 x1 1 -x1 2 x2 3 -x2 4 x3 5 -x3 6 x4 7 -x4 8 x5 9 -x5 10 x6 11 -x6 
+
+0 True 1 False 3 False 10 False 11 False 14 False 15 False 
+1 True 0 False 2 False 8 False 9 False 12 False 13 False 
+2 True 1 False 2 False 8 False 11 False 12 False 15 False 
+3 True 0 False 3 False 9 False 10 False 13 False 14 False 
+4 True 4 False 6 False 9 False 11 False 12 False 14 False 
+5 True 5 False 7 False 8 False 10 False 13 False 15 False 
+6 True 2 False 3 False 4 False 7 False 
+7 True 0 False 1 False 5 False 6 False 
+8 True 6 False 7 False 
+9 True 4 False 5 False 
+10 True 12 False 13 False 14 False 15 False 
+11 True 8 False 9 False 10 False 11 False 
+
+
+c Metrics: 
+c Crossbar size          : 12 x 16
+c Write cycles(2n)       : 12
+c MAC cycles(2^n)        : 64

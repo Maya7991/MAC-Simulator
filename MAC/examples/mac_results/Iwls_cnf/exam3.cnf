@@ -1,0 +1,14 @@
+c Result of efficient AIG-to-CNF conversion using package CNF
+p cnf 5 11
+-2 -3 -4 0
+-2 -4 -6 0
+-2 4 5 6 0
+-2 3 5 -6 0
+-2 -3 -5 -6 0
+2 4 -5 6 0
+2 3 4 -5 0
+2 3 -4 6 0
+2 -3 4 5 -6 0
+-7 0
+2 0
+

@@ -1,0 +1,1 @@
+add_executable(..mac_gen main.cpp DimacsParse.hpp DimacsParse.cpp)

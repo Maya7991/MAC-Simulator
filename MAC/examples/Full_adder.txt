@@ -1,0 +1,21 @@
+c Result of efficient AIG-to-CNF conversion using package CNF
+c inputs a, b, cin / outputs sum, carry
+c a:1, b:2, cin:3 / sum:7, carry:8
+p cnf 8 17
+-1 -2 -4 0
+1 2 -4 0
+1 -2 4 0
+-1 2 4 0
+-4 -3 -7 0
+4 3 -7 0
+4 -3 7 0
+-4 3 7 0
+-3 -4 5 0
+3 -5 0
+4 -5 0 
+-1 -2 6 0
+1 -6 0
+2 -6 0
+5 6 -8 0
+-5 8 0
+-6 8 0

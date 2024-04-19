@@ -1,0 +1,17 @@
+c random cnf generated for testing
+
+h 4 3
+0 x1 1 -x1 2 x2 3 -x2 4 x3 5 -x3 6 x4 7 -x4 
+
+0 True 0 False 
+1 True 1 False 2 False 
+2 True 0 False 2 False 
+4 True 1 False 
+5 True 2 False 
+6 True 2 False 
+
+
+c Metrics: 
+c Crossbar size          : 8 x 3
+c Write cycles(2n)       : 8
+c MAC cycles(2^n)        : 16

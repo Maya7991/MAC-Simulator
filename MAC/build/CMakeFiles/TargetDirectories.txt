@@ -1,0 +1,3 @@
+/home/vboxuser/DFKI/MAC/build/CMakeFiles/mac_gen.dir
+/home/vboxuser/DFKI/MAC/build/CMakeFiles/edit_cache.dir
+/home/vboxuser/DFKI/MAC/build/CMakeFiles/rebuild_cache.dir

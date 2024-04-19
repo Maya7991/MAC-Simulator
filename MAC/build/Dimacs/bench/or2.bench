@@ -1,0 +1,11 @@
+# Incorrect Version
+# Y = (A AND B) OR C
+
+INPUT(A)
+INPUT(B)
+INPUT(C)
+OUTPUT(Y)
+
+AandB = AND(A, B)
+Y = OR(AandB, C)
+

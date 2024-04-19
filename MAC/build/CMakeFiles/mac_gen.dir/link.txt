@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/mac_gen.dir/main.cpp.o CMakeFiles/mac_gen.dir/DimacsParse.cpp.o -o mac_gen 

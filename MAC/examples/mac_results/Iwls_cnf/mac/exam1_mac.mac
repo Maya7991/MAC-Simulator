@@ -1,0 +1,22 @@
+c Result of efficient AIG-to-CNF conversion using package CNF
+
+h 5 10
+0 x1 1 -x1 2 x2 3 -x2 4 x3 5 -x3 6 x4 7 -x4 8 x5 9 -x5 
+
+2 True 0 False 1 False 
+3 True 2 False 3 False 9 False 
+4 True 0 False 2 False 6 False 7 False 
+5 True 1 False 3 False 4 False 5 False 
+6 True 5 False 6 False 
+7 True 4 False 7 False 
+8 True 1 False 2 False 
+9 True 0 False 3 False 
+0 True 5 False 7 False 
+0 True 4 False 6 False 
+0 True 8 False 
+
+
+c Metrics: 
+c Crossbar size          : 10 x 10
+c Write cycles(2n)       : 10
+c MAC cycles(2^n)        : 32

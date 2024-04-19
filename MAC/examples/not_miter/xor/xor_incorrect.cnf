@@ -1,0 +1,21 @@
+p cnf 6 14
+c without miter
+c 1, 2, 3 inputs
+c 5, 6 outputs
+c it gives 5 times True, for inputs 000,001,010,100,111 (xor - or)
+c sim  6,5
+-4 -1 -2 0
+-4 1 2 0
+4 -1 2 0
+4 1 -2 0
+-5 4 3 0
+-5 -4 -3 0
+5 -4 3 0
+5 4 -3 0
+6 -1 -2 -3 0
+-6 1 0
+-6 2 0
+-6 3 0
+6 0
+5 0
+

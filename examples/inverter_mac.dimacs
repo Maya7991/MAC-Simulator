@@ -1,0 +1,15 @@
+h 2 2
+0 x1 1 -x1 2 x2 3 -x2 // row variable mapping
+
+
+//row-wise memristor initialisation
+0 True 1 False 
+1 True 0 False 
+2 True 1 False 
+3 True 0 False 
+
+
+c Metrics: 
+c Crossbar size : 4 x 2
+c Write cycles  : 4
+c MAC cycles    : 4

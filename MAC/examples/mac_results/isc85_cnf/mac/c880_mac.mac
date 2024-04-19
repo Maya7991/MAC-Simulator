@@ -1,0 +1,418 @@
+c Result of efficient AIG-to-CNF conversion using package CNF
+
+h 203 632
+0 x1 1 -x1 2 x2 3 -x2 4 x3 5 -x3 6 x4 7 -x4 8 x5 9 -x5 10 x6 11 -x6 12 x7 13 -x7 14 x8 15 -x8 16 x9 17 -x9 18 x10 19 -x10 20 x11 21 -x11 22 x12 23 -x12 24 x13 25 -x13 26 x14 27 -x14 28 x15 29 -x15 30 x16 31 -x16 32 x17 33 -x17 34 x18 35 -x18 36 x19 37 -x19 38 x20 39 -x20 40 x21 41 -x21 42 x22 43 -x22 44 x23 45 -x23 46 x24 47 -x24 48 x25 49 -x25 50 x26 51 -x26 52 x27 53 -x27 54 x28 55 -x28 56 x29 57 -x29 58 x30 59 -x30 60 x31 61 -x31 62 x32 63 -x32 64 x33 65 -x33 66 x34 67 -x34 68 x35 69 -x35 70 x36 71 -x36 72 x37 73 -x37 74 x38 75 -x38 76 x39 77 -x39 78 x40 79 -x40 80 x41 81 -x41 82 x42 83 -x42 84 x43 85 -x43 86 x44 87 -x44 88 x45 89 -x45 90 x46 91 -x46 92 x47 93 -x47 94 x48 95 -x48 96 x49 97 -x49 98 x50 99 -x50 100 x51 101 -x51 102 x52 103 -x52 104 x53 105 -x53 106 x54 107 -x54 108 x55 109 -x55 110 x56 111 -x56 112 x57 113 -x57 114 x58 115 -x58 116 x59 117 -x59 118 x60 119 -x60 120 x61 121 -x61 122 x62 123 -x62 124 x63 125 -x63 126 x64 127 -x64 128 x65 129 -x65 130 x66 131 -x66 132 x67 133 -x67 134 x68 135 -x68 136 x69 137 -x69 138 x70 139 -x70 140 x71 141 -x71 142 x72 143 -x72 144 x73 145 -x73 146 x74 147 -x74 148 x75 149 -x75 150 x76 151 -x76 152 x77 153 -x77 154 x78 155 -x78 156 x79 157 -x79 158 x80 159 -x80 160 x81 161 -x81 162 x82 163 -x82 164 x83 165 -x83 166 x84 167 -x84 168 x85 169 -x85 170 x86 171 -x86 172 x87 173 -x87 174 x88 175 -x88 176 x89 177 -x89 178 x90 179 -x90 180 x91 181 -x91 182 x92 183 -x92 184 x93 185 -x93 186 x94 187 -x94 188 x95 189 -x95 190 x96 191 -x96 192 x97 193 -x97 194 x98 195 -x98 196 x99 197 -x99 198 x100 199 -x100 200 x101 201 -x101 202 x102 203 -x102 204 x103 205 -x103 206 x104 207 -x104 208 x105 209 -x105 210 x106 211 -x106 212 x107 213 -x107 214 x108 215 -x108 216 x109 217 -x109 218 x110 219 -x110 220 x111 221 -x111 222 x112 223 -x112 224 x113 225 -x113 226 x114 227 -x114 228 x115 229 -x115 230 x116 231 -x116 232 x117 233 -x117 234 x118 235 -x118 236 x119 237 -x119 238 x120 239 -x120 240 x121 241 -x121 242 x122 243 -x122 244 x123 245 -x123 246 x124 247 -x124 248 x125 249 -x125 250 x126 251 -x126 252 x127 253 -x127 254 x128 255 -x128 256 x129 257 -x129 258 x130 259 -x130 260 x131 261 -x131 262 x132 263 -x132 264 x133 265 -x133 266 x134 267 -x134 268 x135 269 -x135 270 x136 271 -x136 272 x137 273 -x137 274 x138 275 -x138 276 x139 277 -x139 278 x140 279 -x140 280 x141 281 -x141 282 x142 283 -x142 284 x143 285 -x143 286 x144 287 -x144 288 x145 289 -x145 290 x146 291 -x146 292 x147 293 -x147 294 x148 295 -x148 296 x149 297 -x149 298 x150 299 -x150 300 x151 301 -x151 302 x152 303 -x152 304 x153 305 -x153 306 x154 307 -x154 308 x155 309 -x155 310 x156 311 -x156 312 x157 313 -x157 314 x158 315 -x158 316 x159 317 -x159 318 x160 319 -x160 320 x161 321 -x161 322 x162 323 -x162 324 x163 325 -x163 326 x164 327 -x164 328 x165 329 -x165 330 x166 331 -x166 332 x167 333 -x167 334 x168 335 -x168 336 x169 337 -x169 338 x170 339 -x170 340 x171 341 -x171 342 x172 343 -x172 344 x173 345 -x173 346 x174 347 -x174 348 x175 349 -x175 350 x176 351 -x176 352 x177 353 -x177 354 x178 355 -x178 356 x179 357 -x179 358 x180 359 -x180 360 x181 361 -x181 362 x182 363 -x182 364 x183 365 -x183 366 x184 367 -x184 368 x185 369 -x185 370 x186 371 -x186 372 x187 373 -x187 374 x188 375 -x188 376 x189 377 -x189 378 x190 379 -x190 380 x191 381 -x191 382 x192 383 -x192 384 x193 385 -x193 386 x194 387 -x194 388 x195 389 -x195 390 x196 391 -x196 392 x197 393 -x197 394 x198 395 -x198 396 x199 397 -x199 398 x200 399 -x200 400 x201 401 -x201 402 x202 403 -x202 404 x203 405 -x203 
+
+2 True 0 False 606 False 
+3 True 1 False 2 False 3 False 
+4 True 4 False 607 False 
+5 True 5 False 6 False 7 False 
+6 True 8 False 20 False 45 False 608 False 
+7 True 9 False 10 False 11 False 21 False 44 False 
+8 True 12 False 609 False 
+9 True 13 False 14 False 
+10 True 15 False 610 False 
+11 True 16 False 17 False 18 False 19 False 
+12 True 20 False 
+13 True 21 False 22 False 611 False 
+14 True 22 False 23 False 46 False 
+15 True 20 False 24 False 25 False 26 False 27 False 44 False 
+16 True 28 False 
+17 True 29 False 30 False 31 False 612 False 
+18 True 32 False 
+19 True 33 False 34 False 35 False 613 False 
+20 True 36 False 
+21 True 37 False 38 False 39 False 614 False 
+22 True 40 False 41 False 615 False 
+23 True 42 False 43 False 
+24 True 44 False 
+25 True 45 False 46 False 616 False 
+26 True 47 False 169 False 184 False 186 False 410 False 617 False 
+27 True 48 False 49 False 50 False 166 False 182 False 183 False 190 False 407 False 
+28 True 51 False 618 False 
+29 True 52 False 53 False 54 False 
+30 True 54 False 55 False 61 False 149 False 
+31 True 51 False 56 False 57 False 58 False 59 False 60 False 146 False 
+32 True 60 False 619 False 
+33 True 61 False 62 False 63 False 64 False 
+34 True 65 False 66 False 620 False 
+35 True 67 False 68 False 
+36 True 69 False 70 False 621 False 
+37 True 71 False 72 False 
+38 True 69 False 72 False 73 False 74 False 
+39 True 70 False 71 False 75 False 76 False 
+40 True 74 False 76 False 77 False 78 False 
+41 True 73 False 75 False 79 False 80 False 
+42 True 77 False 80 False 81 False 82 False 
+43 True 78 False 79 False 83 False 84 False 
+44 True 78 False 80 False 85 False 86 False 
+45 True 77 False 79 False 87 False 88 False 
+46 True 70 False 72 False 89 False 90 False 
+47 True 69 False 71 False 91 False 92 False 
+48 True 90 False 92 False 93 False 94 False 
+49 True 89 False 91 False 95 False 96 False 
+50 True 93 False 96 False 97 False 98 False 
+51 True 94 False 95 False 99 False 100 False 
+52 True 94 False 96 False 101 False 102 False 
+53 True 93 False 95 False 103 False 104 False 
+54 True 105 False 106 False 622 False 
+55 True 107 False 108 False 
+56 True 105 False 108 False 109 False 110 False 
+57 True 106 False 107 False 111 False 112 False 
+58 True 110 False 112 False 113 False 114 False 
+59 True 109 False 111 False 115 False 116 False 
+60 True 113 False 116 False 117 False 118 False 
+61 True 114 False 115 False 119 False 120 False 
+62 True 114 False 116 False 121 False 122 False 
+63 True 113 False 115 False 123 False 124 False 
+64 True 106 False 108 False 125 False 126 False 
+65 True 105 False 107 False 127 False 128 False 
+66 True 126 False 128 False 129 False 130 False 
+67 True 125 False 127 False 131 False 132 False 
+68 True 129 False 132 False 133 False 134 False 
+69 True 130 False 131 False 135 False 136 False 
+70 True 130 False 132 False 137 False 138 False 
+71 True 129 False 131 False 139 False 140 False 
+72 True 143 False 144 False 145 False 623 False 
+73 True 141 False 142 False 
+74 True 142 False 146 False 230 False 316 False 354 False 486 False 512 False 540 False 575 False 
+75 True 145 False 147 False 148 False 149 False 150 False 234 False 319 False 357 False 490 False 516 False 544 False 579 False 
+76 True 147 False 151 False 
+77 True 146 False 152 False 153 False 154 False 
+78 True 141 False 142 False 159 False 160 False 
+79 True 144 False 155 False 156 False 157 False 158 False 
+80 True 155 False 157 False 163 False 164 False 165 False 219 False 224 False 
+81 True 160 False 161 False 162 False 221 False 222 False 
+82 True 161 False 162 False 166 False 238 False 239 False 271 False 272 False 282 False 283 False 
+83 True 164 False 167 False 168 False 169 False 170 False 241 False 274 False 285 False 
+84 True 167 False 171 False 408 False 
+85 True 166 False 172 False 173 False 174 False 407 False 
+86 True 161 False 162 False 175 False 
+87 True 163 False 176 False 177 False 
+88 True 175 False 178 False 179 False 243 False 276 False 287 False 
+89 True 177 False 180 False 181 False 245 False 278 False 289 False 
+90 True 178 False 182 False 183 False 406 False 
+91 True 181 False 184 False 185 False 404 False 
+92 True 161 False 189 False 190 False 239 False 272 False 283 False 398 False 400 False 432 False 434 False 446 False 448 False 460 False 462 False 
+93 True 165 False 186 False 187 False 188 False 242 False 275 False 286 False 403 False 437 False 451 False 465 False 
+94 True 187 False 191 False 192 False 
+95 True 190 False 193 False 194 False 195 False 
+96 True 186 False 187 False 188 False 196 False 197 False 198 False 
+97 True 189 False 199 False 200 False 
+98 True 199 False 201 False 
+99 True 196 False 197 False 198 False 202 False 203 False 204 False 205 False 
+100 True 141 False 142 False 208 False 209 False 210 False 
+101 True 143 False 206 False 207 False 
+102 True 206 False 207 False 211 False 212 False 
+103 True 209 False 213 False 214 False 215 False 
+104 True 212 False 215 False 216 False 
+105 True 211 False 214 False 217 False 218 False 
+106 True 217 False 220 False 221 False 226 False 261 False 347 False 377 False 
+107 True 216 False 219 False 229 False 264 False 344 False 380 False 
+108 True 216 False 222 False 226 False 227 False 229 False 296 False 339 False 377 False 378 False 
+109 True 218 False 223 False 224 False 225 False 228 False 295 False 343 False 379 False 
+110 True 206 False 207 False 228 False 229 False 
+111 True 208 False 225 False 226 False 227 False 
+112 True 232 False 233 False 234 False 624 False 
+113 True 230 False 231 False 
+114 True 230 False 231 False 235 False 
+115 True 233 False 236 False 237 False 
+116 True 237 False 240 False 241 False 242 False 256 False 258 False 309 False 314 False 
+117 True 235 False 238 False 239 False 257 False 259 False 311 False 312 False 
+118 True 238 False 239 False 243 False 
+119 True 240 False 244 False 245 False 
+120 True 230 False 231 False 248 False 249 False 250 False 
+121 True 232 False 246 False 247 False 
+122 True 246 False 247 False 251 False 252 False 
+123 True 249 False 253 False 254 False 255 False 
+124 True 251 False 255 False 256 False 257 False 
+125 True 252 False 254 False 258 False 259 False 
+126 True 252 False 255 False 263 False 264 False 418 False 
+127 True 251 False 254 False 260 False 261 False 262 False 420 False 
+128 True 262 False 265 False 297 False 
+129 True 264 False 266 False 267 False 295 False 
+130 True 266 False 269 False 270 False 290 False 337 False 349 False 
+131 True 265 False 268 False 294 False 336 False 352 False 
+132 True 268 False 273 False 274 False 275 False 300 False 320 False 322 False 
+133 True 270 False 271 False 272 False 298 False 325 False 
+134 True 271 False 272 False 276 False 
+135 True 273 False 277 False 278 False 
+136 True 267 False 280 False 281 False 340 False 346 False 375 False 382 False 
+137 True 265 False 279 False 343 False 344 False 374 False 385 False 
+138 True 279 False 284 False 285 False 286 False 303 False 358 False 360 False 
+139 True 281 False 282 False 283 False 301 False 363 False 
+140 True 282 False 283 False 287 False 
+141 True 284 False 288 False 289 False 
+142 True 260 False 261 False 262 False 292 False 293 False 294 False 
+143 True 263 False 290 False 291 False 
+144 True 290 False 291 False 295 False 
+145 True 293 False 296 False 297 False 
+146 True 290 False 291 False 298 False 336 False 349 False 350 False 352 False 
+147 True 292 False 299 False 300 False 338 False 348 False 351 False 
+148 True 291 False 301 False 339 False 340 False 374 False 382 False 383 False 385 False 
+149 True 294 False 302 False 303 False 342 False 376 False 381 False 384 False 
+150 True 246 False 247 False 307 False 308 False 
+151 True 248 False 304 False 305 False 306 False 
+152 True 305 False 310 False 311 False 417 False 
+153 True 308 False 309 False 420 False 
+154 True 305 False 306 False 308 False 312 False 417 False 418 False 
+155 True 304 False 307 False 313 False 314 False 419 False 
+156 True 317 False 318 False 319 False 625 False 
+157 True 315 False 316 False 
+158 True 315 False 316 False 324 False 325 False 
+159 True 318 False 320 False 321 False 322 False 323 False 
+160 True 315 False 316 False 328 False 329 False 330 False 
+161 True 317 False 326 False 327 False 
+162 True 326 False 327 False 331 False 332 False 
+163 True 329 False 333 False 334 False 335 False 
+164 True 331 False 335 False 336 False 
+165 True 332 False 334 False 337 False 338 False 
+166 True 332 False 335 False 341 False 342 False 343 False 
+167 True 331 False 334 False 339 False 340 False 
+168 True 339 False 340 False 344 False 
+169 True 341 False 345 False 346 False 347 False 
+170 True 326 False 327 False 351 False 352 False 
+171 True 328 False 348 False 349 False 350 False 
+172 True 355 False 356 False 357 False 626 False 
+173 True 353 False 354 False 
+174 True 353 False 354 False 362 False 363 False 
+175 True 356 False 358 False 359 False 360 False 361 False 
+176 True 353 False 354 False 366 False 367 False 368 False 
+177 True 355 False 364 False 365 False 
+178 True 364 False 365 False 369 False 370 False 
+179 True 367 False 371 False 372 False 373 False 
+180 True 369 False 373 False 374 False 
+181 True 370 False 372 False 375 False 376 False 
+182 True 370 False 373 False 379 False 380 False 
+183 True 369 False 372 False 377 False 378 False 
+184 True 364 False 365 False 384 False 385 False 
+185 True 366 False 381 False 382 False 383 False 
+186 True 388 False 389 False 627 False 
+187 True 386 False 387 False 
+188 True 386 False 387 False 390 False 534 False 537 False 
+189 True 388 False 391 False 392 False 538 False 
+190 True 392 False 395 False 396 False 397 False 483 False 519 False 530 False 532 False 
+191 True 390 False 393 False 394 False 485 False 517 False 531 False 533 False 
+192 True 393 False 394 False 402 False 403 False 
+193 True 395 False 398 False 399 False 400 False 401 False 
+194 True 394 False 404 False 427 False 441 False 455 False 
+195 True 397 False 405 False 406 False 431 False 445 False 459 False 
+196 True 393 False 394 False 407 False 427 False 428 False 441 False 442 False 455 False 456 False 
+197 True 396 False 408 False 409 False 410 False 411 False 430 False 444 False 458 False 
+198 True 386 False 415 False 416 False 526 False 528 False 
+199 True 389 False 412 False 413 False 414 False 525 False 529 False 
+200 True 414 False 419 False 420 False 500 False 502 False 567 False 596 False 
+201 True 416 False 417 False 418 False 499 False 503 False 566 False 599 False 
+202 True 412 False 421 False 472 False 
+203 True 416 False 422 False 423 False 471 False 
+204 True 422 False 425 False 426 False 466 False 559 False 571 False 
+205 True 421 False 424 False 470 False 558 False 574 False 
+206 True 424 False 429 False 430 False 431 False 479 False 547 False 
+207 True 426 False 427 False 428 False 477 False 545 False 
+208 True 427 False 428 False 436 False 437 False 
+209 True 429 False 432 False 433 False 434 False 435 False 
+210 True 423 False 439 False 440 False 561 False 569 False 594 False 601 False 
+211 True 421 False 438 False 565 False 566 False 593 False 604 False 
+212 True 438 False 443 False 444 False 445 False 482 False 582 False 
+213 True 440 False 441 False 442 False 480 False 580 False 
+214 True 441 False 442 False 450 False 451 False 
+215 True 443 False 446 False 447 False 448 False 449 False 
+216 True 413 False 453 False 454 False 505 False 508 False 568 False 597 False 
+217 True 416 False 452 False 504 False 511 False 566 False 599 False 
+218 True 452 False 457 False 458 False 459 False 476 False 493 False 
+219 True 454 False 455 False 456 False 474 False 491 False 
+220 True 455 False 456 False 464 False 465 False 
+221 True 457 False 460 False 461 False 462 False 463 False 
+222 True 412 False 413 False 414 False 468 False 469 False 470 False 
+223 True 415 False 466 False 467 False 
+224 True 466 False 467 False 471 False 
+225 True 469 False 472 False 473 False 
+226 True 473 False 474 False 504 False 508 False 509 False 511 False 562 False 596 False 597 False 
+227 True 471 False 475 False 476 False 506 False 507 False 510 False 565 False 598 False 
+228 True 466 False 467 False 477 False 558 False 571 False 572 False 574 False 
+229 True 468 False 478 False 479 False 560 False 570 False 573 False 
+230 True 467 False 480 False 561 False 562 False 593 False 601 False 602 False 604 False 
+231 True 470 False 481 False 482 False 564 False 595 False 600 False 603 False 
+232 True 387 False 484 False 485 False 
+233 True 389 False 483 False 
+234 True 488 False 489 False 490 False 628 False 
+235 True 486 False 487 False 
+236 True 486 False 487 False 491 False 
+237 True 489 False 492 False 493 False 
+238 True 486 False 487 False 496 False 497 False 498 False 
+239 True 488 False 494 False 495 False 
+240 True 494 False 495 False 499 False 500 False 
+241 True 497 False 501 False 502 False 503 False 
+242 True 499 False 502 False 504 False 
+243 True 500 False 503 False 505 False 506 False 
+244 True 494 False 495 False 510 False 511 False 
+245 True 496 False 507 False 508 False 509 False 
+246 True 514 False 515 False 516 False 629 False 
+247 True 512 False 513 False 
+248 True 512 False 513 False 517 False 
+249 True 515 False 518 False 519 False 
+250 True 512 False 513 False 522 False 523 False 524 False 
+251 True 514 False 520 False 521 False 
+252 True 520 False 521 False 525 False 526 False 
+253 True 523 False 527 False 528 False 529 False 
+254 True 525 False 528 False 530 False 531 False 534 False 536 False 
+255 True 526 False 529 False 532 False 533 False 539 False 
+256 True 520 False 521 False 538 False 539 False 
+257 True 522 False 534 False 535 False 536 False 537 False 
+258 True 542 False 543 False 544 False 630 False 
+259 True 540 False 541 False 
+260 True 540 False 541 False 545 False 
+261 True 543 False 546 False 547 False 
+262 True 540 False 541 False 550 False 551 False 552 False 
+263 True 542 False 548 False 549 False 
+264 True 548 False 549 False 553 False 554 False 
+265 True 551 False 555 False 556 False 557 False 
+266 True 553 False 557 False 558 False 
+267 True 554 False 556 False 559 False 560 False 
+268 True 554 False 557 False 563 False 564 False 565 False 
+269 True 553 False 556 False 561 False 562 False 
+270 True 561 False 562 False 566 False 
+271 True 563 False 567 False 568 False 569 False 
+272 True 548 False 549 False 573 False 574 False 
+273 True 550 False 570 False 571 False 572 False 
+274 True 577 False 578 False 579 False 631 False 
+275 True 575 False 576 False 
+276 True 575 False 576 False 580 False 
+277 True 578 False 581 False 582 False 
+278 True 575 False 576 False 585 False 586 False 587 False 
+279 True 577 False 583 False 584 False 
+280 True 583 False 584 False 588 False 589 False 
+281 True 586 False 590 False 591 False 592 False 
+282 True 588 False 592 False 593 False 
+283 True 589 False 591 False 594 False 595 False 
+284 True 589 False 592 False 598 False 599 False 
+285 True 588 False 591 False 596 False 597 False 
+286 True 583 False 584 False 603 False 604 False 
+287 True 585 False 600 False 601 False 602 False 
+288 True 17 False 25 False 48 False 57 False 180 False 203 False 
+289 True 15 False 23 False 47 False 55 False 178 False 179 False 201 False 
+290 True 19 False 59 False 205 False 399 False 400 False 
+291 True 15 False 55 False 201 False 402 False 
+292 True 18 False 27 False 58 False 
+293 True 15 False 23 False 55 False 
+294 True 16 False 26 False 179 False 191 False 194 False 204 False 409 False 447 False 448 False 
+295 True 15 False 23 False 181 False 192 False 195 False 201 False 407 False 450 False 
+296 True 24 False 49 False 
+297 True 23 False 47 False 
+298 True 1 False 5 False 9 False 52 False 172 False 
+299 True 0 False 4 False 8 False 51 False 171 False 
+300 True 6 False 10 False 33 False 37 False 
+301 True 4 False 8 False 32 False 36 False 
+302 True 2 False 11 False 38 False 152 False 192 False 194 False 197 False 
+303 True 0 False 8 False 36 False 151 False 191 False 195 False 200 False 
+304 True 50 False 202 False 433 False 434 False 
+305 True 47 False 201 False 436 False 
+306 True 56 False 168 False 405 False 
+307 True 55 False 166 False 404 False 
+308 True 29 False 34 False 39 False 62 False 153 False 183 False 193 False 196 False 
+309 True 28 False 32 False 36 False 60 False 151 False 185 False 191 False 192 False 200 False 
+310 True 53 False 64 False 154 False 
+311 True 51 False 60 False 151 False 
+312 True 148 False 
+313 True 146 False 
+314 True 150 False 
+315 True 146 False 
+316 True 63 False 
+317 True 60 False 
+318 True 3 False 30 False 173 False 198 False 
+319 True 0 False 28 False 171 False 200 False 
+320 True 7 False 31 False 35 False 174 False 
+321 True 4 False 28 False 32 False 171 False 
+322 True 13 False 
+323 True 12 False 
+324 True 14 False 
+325 True 12 False 
+326 True 43 False 68 False 
+327 True 41 False 66 False 
+328 True 43 False 68 False 
+329 True 40 False 65 False 
+330 True 67 False 
+331 True 65 False 66 False 
+332 True 42 False 
+333 True 40 False 41 False 
+334 True 81 False 84 False 399 False 401 False 549 False 
+335 True 82 False 83 False 403 False 552 False 
+336 True 82 False 84 False 433 False 435 False 584 False 
+337 True 81 False 83 False 437 False 587 False 
+338 True 85 False 88 False 447 False 449 False 495 False 
+339 True 86 False 87 False 451 False 498 False 
+340 True 86 False 88 False 247 False 461 False 463 False 
+341 True 85 False 87 False 250 False 465 False 
+342 True 97 False 100 False 238 False 327 False 
+343 True 98 False 99 False 242 False 330 False 
+344 True 98 False 100 False 271 False 365 False 
+345 True 97 False 99 False 275 False 368 False 
+346 True 101 False 104 False 207 False 282 False 
+347 True 102 False 103 False 210 False 286 False 
+348 True 102 False 104 False 162 False 
+349 True 101 False 103 False 165 False 
+350 True 73 False 76 False 109 False 112 False 
+351 True 74 False 75 False 110 False 111 False 
+352 True 89 False 92 False 
+353 True 90 False 91 False 
+354 True 398 False 401 False 432 False 435 False 446 False 449 False 461 False 462 False 
+355 True 402 False 436 False 450 False 464 False 
+356 True 244 False 393 False 
+357 True 243 False 397 False 
+358 True 277 False 428 False 
+359 True 276 False 431 False 
+360 True 288 False 442 False 
+361 True 287 False 445 False 
+362 True 460 False 463 False 
+363 True 464 False 
+364 True 176 False 456 False 
+365 True 175 False 459 False 
+366 True 182 False 188 False 
+367 True 185 False 190 False 
+368 True 117 False 120 False 391 False 483 False 513 False 531 False 532 False 
+369 True 118 False 119 False 390 False 484 False 516 False 530 False 533 False 
+370 True 118 False 120 False 424 False 478 False 541 False 
+371 True 117 False 119 False 425 False 477 False 544 False 
+372 True 121 False 124 False 438 False 481 False 576 False 
+373 True 122 False 123 False 439 False 480 False 579 False 
+374 True 122 False 124 False 452 False 475 False 487 False 
+375 True 121 False 123 False 453 False 474 False 490 False 
+376 True 133 False 136 False 231 False 257 False 258 False 309 False 313 False 
+377 True 134 False 135 False 234 False 256 False 259 False 310 False 312 False 
+378 True 134 False 136 False 268 False 299 False 315 False 
+379 True 133 False 135 False 269 False 298 False 319 False 
+380 True 137 False 140 False 279 False 302 False 353 False 
+381 True 138 False 139 False 280 False 301 False 357 False 
+382 True 138 False 140 False 141 False 219 False 223 False 
+383 True 137 False 139 False 145 False 220 False 222 False 
+384 True 125 False 128 False 
+385 True 126 False 127 False 
+386 True 206 False 246 False 326 False 364 False 494 False 521 False 548 False 583 False 
+387 True 210 False 250 False 330 False 368 False 498 False 524 False 552 False 587 False 
+388 True 213 False 253 False 333 False 371 False 501 False 527 False 555 False 590 False 
+389 True 211 False 212 False 251 False 252 False 331 False 332 False 369 False 370 False 499 False 500 False 525 False 526 False 553 False 554 False 588 False 589 False 
+390 True 227 False 306 False 350 False 383 False 509 False 535 False 537 False 572 False 602 False 
+391 True 229 False 308 False 352 False 385 False 511 False 539 False 574 False 604 False 
+392 True 225 False 304 False 348 False 381 False 507 False 535 False 536 False 570 False 600 False 
+393 True 228 False 307 False 351 False 384 False 510 False 538 False 573 False 603 False 
+394 True 156 False 158 False 236 False 321 False 323 False 359 False 361 False 492 False 518 False 546 False 581 False 
+395 True 160 False 235 False 325 False 363 False 491 False 517 False 545 False 580 False 
+396 True 156 False 157 False 321 False 322 False 359 False 360 False 
+397 True 159 False 324 False 362 False 
+398 True 320 False 323 False 
+399 True 324 False 
+400 True 358 False 361 False 
+401 True 362 False 
+402 True 211 False 215 False 260 False 345 False 378 False 
+403 True 212 False 214 False 264 False 344 False 380 False 
+404 True 155 False 158 False 
+405 True 159 False 
+0 True 166 False 407 False 520 False 
+0 True 170 False 411 False 524 False 
+0 True 605 False 
+
+
+c Metrics: 
+c Crossbar size          : 406 x 632
+c Write cycles(2n)       : 406
+c MAC cycles(2^n)        : 1.28555e+61

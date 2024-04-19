@@ -1,0 +1,11 @@
+# Correct Version
+# Y = (A OR B) NOR C
+
+INPUT(A)
+INPUT(B)
+INPUT(C)
+OUTPUT(Y)
+
+AorB = OR(A, B)
+Y = NOR(AorB, C)
+
